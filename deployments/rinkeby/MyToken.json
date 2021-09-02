@@ -1,0 +1,266 @@
+{
+  "address": "0xa42c65BD0203F84Bb1287eA20514b85D5D87A959",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Transfer",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "_mint",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "balances",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xbd6d8822aa51a6021ca56d43f5b76f803cfbf2e6b935b7d11028e3b6f53d74b1",
+  "receipt": {
+    "to": null,
+    "from": "0x4079450290afD2bf47a8A3f95a0AC89C64877e4E",
+    "contractAddress": "0xa42c65BD0203F84Bb1287eA20514b85D5D87A959",
+    "transactionIndex": 3,
+    "gasUsed": "379575",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x98da5cb1c6a93490be74e891d311e1f6d06da49a6440227e6b77e946190903a4",
+    "transactionHash": "0xbd6d8822aa51a6021ca56d43f5b76f803cfbf2e6b935b7d11028e3b6f53d74b1",
+    "logs": [],
+    "blockNumber": 9221639,
+    "cumulativeGasUsed": "990141",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "ce8333ae42b74dcd0a105752512e535d",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"_mint\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"balances\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/veryBadToken.sol\":\"MyToken\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/veryBadToken.sol\":{\"content\":\"pragma solidity ^0.8.7;\\n\\ncontract MyToken {\\n\\n    string public name = \\\"Very Bad Token\\\";\\n    string public symbol = \\\"VBT\\\";\\n    uint8 public decimals = 2;\\n    mapping (address => uint256) public balances;\\n    uint256 public totalSupply;\\n    event Transfer(address indexed from, address indexed to, uint256 value);\\n    \\n    function balanceOf(address owner) public view returns (uint256) {\\n    \\treturn balances[owner];\\n    }\\n\\n    function transfer(address to, uint256 value) public returns (bool) {\\n    \\tbalances[msg.sender] -= value;\\n    \\tbalances[to] += value;\\n    \\temit Transfer(msg.sender, to, value); \\n    }\\n    \\n    function _mint(address account, uint256 value) public {\\n    \\ttotalSupply += value;\\n    \\tbalances[account] += value;\\n    \\temit Transfer(address(0), account, value);\\n    }\\n\\n}\\n\\n// Function transfer SHOULD throw if the message caller\\u2019s account balance does not have enough tokens to spend.(EIP-20 token standart)\\n// Function mint shouldn't be public(?)\\n\",\"keccak256\":\"0x7ea6f07359a43060210914eccb63a58a58c9cd0913e8d28797bc12bbef6ade8c\"}},\"version\":1}",
+  "bytecode": "0x60c0604052600e60808190526d2b32b93c902130b2102a37b5b2b760911b60a090815261002f9160009190610079565b506040805180820190915260038082526215909560ea1b602090920191825261005a91600191610079565b506002805460ff19168117905534801561007357600080fd5b5061014d565b82805461008590610112565b90600052602060002090601f0160209004810192826100a757600085556100ed565b82601f106100c057805160ff19168380011785556100ed565b828001600101855582156100ed579182015b828111156100ed5782518255916020019190600101906100d2565b506100f99291506100fd565b5090565b5b808211156100f957600081556001016100fe565b600181811c9082168061012657607f821691505b6020821081141561014757634e487b7160e01b600052602260045260246000fd5b50919050565b61049a8061015c6000396000f3fe608060405234801561001057600080fd5b50600436106100885760003560e01c80634e6ec2471161005b5780634e6ec2471461010157806370a082311461011657806395d89b411461013f578063a9059cbb1461014757600080fd5b806306fdde031461008d57806318160ddd146100ab57806327e235e3146100c2578063313ce567146100e2575b600080fd5b61009561016a565b6040516100a2919061038f565b60405180910390f35b6100b460045481565b6040519081526020016100a2565b6100b46100d0366004610343565b60036020526000908152604090205481565b6002546100ef9060ff1681565b60405160ff90911681526020016100a2565b61011461010f366004610365565b6101f8565b005b6100b4610124366004610343565b6001600160a01b031660009081526003602052604090205490565b610095610281565b61015a610155366004610365565b61028e565b60405190151581526020016100a2565b6000805461017790610413565b80601f01602080910402602001604051908101604052809291908181526020018280546101a390610413565b80156101f05780601f106101c5576101008083540402835291602001916101f0565b820191906000526020600020905b8154815290600101906020018083116101d357829003601f168201915b505050505081565b806004600082825461020a91906103e4565b90915550506001600160a01b038216600090815260036020526040812080548392906102379084906103e4565b90915550506040518181526001600160a01b038316906000907fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9060200160405180910390a35050565b6001805461017790610413565b336000908152600360205260408120805483919083906102af9084906103fc565b90915550506001600160a01b038316600090815260036020526040812080548492906102dc9084906103e4565b90915550506040518281526001600160a01b0384169033907fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9060200160405180910390a392915050565b80356001600160a01b038116811461033e57600080fd5b919050565b60006020828403121561035557600080fd5b61035e82610327565b9392505050565b6000806040838503121561037857600080fd5b61038183610327565b946020939093013593505050565b600060208083528351808285015260005b818110156103bc578581018301518582016040015282016103a0565b818111156103ce576000604083870101525b50601f01601f1916929092016040019392505050565b600082198211156103f7576103f761044e565b500190565b60008282101561040e5761040e61044e565b500390565b600181811c9082168061042757607f821691505b6020821081141561044857634e487b7160e01b600052602260045260246000fd5b50919050565b634e487b7160e01b600052601160045260246000fdfea26469706673582212205f077522e54d970a127f9bae0014dff2823c5481dd7300345a3e923d57173b4a64736f6c63430008070033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100885760003560e01c80634e6ec2471161005b5780634e6ec2471461010157806370a082311461011657806395d89b411461013f578063a9059cbb1461014757600080fd5b806306fdde031461008d57806318160ddd146100ab57806327e235e3146100c2578063313ce567146100e2575b600080fd5b61009561016a565b6040516100a2919061038f565b60405180910390f35b6100b460045481565b6040519081526020016100a2565b6100b46100d0366004610343565b60036020526000908152604090205481565b6002546100ef9060ff1681565b60405160ff90911681526020016100a2565b61011461010f366004610365565b6101f8565b005b6100b4610124366004610343565b6001600160a01b031660009081526003602052604090205490565b610095610281565b61015a610155366004610365565b61028e565b60405190151581526020016100a2565b6000805461017790610413565b80601f01602080910402602001604051908101604052809291908181526020018280546101a390610413565b80156101f05780601f106101c5576101008083540402835291602001916101f0565b820191906000526020600020905b8154815290600101906020018083116101d357829003601f168201915b505050505081565b806004600082825461020a91906103e4565b90915550506001600160a01b038216600090815260036020526040812080548392906102379084906103e4565b90915550506040518181526001600160a01b038316906000907fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9060200160405180910390a35050565b6001805461017790610413565b336000908152600360205260408120805483919083906102af9084906103fc565b90915550506001600160a01b038316600090815260036020526040812080548492906102dc9084906103e4565b90915550506040518281526001600160a01b0384169033907fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9060200160405180910390a392915050565b80356001600160a01b038116811461033e57600080fd5b919050565b60006020828403121561035557600080fd5b61035e82610327565b9392505050565b6000806040838503121561037857600080fd5b61038183610327565b946020939093013593505050565b600060208083528351808285015260005b818110156103bc578581018301518582016040015282016103a0565b818111156103ce576000604083870101525b50601f01601f1916929092016040019392505050565b600082198211156103f7576103f761044e565b500190565b60008282101561040e5761040e61044e565b500390565b600181811c9082168061042757607f821691505b6020821081141561044857634e487b7160e01b600052602260045260246000fd5b50919050565b634e487b7160e01b600052601160045260246000fdfea26469706673582212205f077522e54d970a127f9bae0014dff2823c5481dd7300345a3e923d57173b4a64736f6c63430008070033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 4,
+        "contract": "contracts/veryBadToken.sol:MyToken",
+        "label": "name",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_string_storage"
+      },
+      {
+        "astId": 7,
+        "contract": "contracts/veryBadToken.sol:MyToken",
+        "label": "symbol",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_string_storage"
+      },
+      {
+        "astId": 10,
+        "contract": "contracts/veryBadToken.sol:MyToken",
+        "label": "decimals",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_uint8"
+      },
+      {
+        "astId": 14,
+        "contract": "contracts/veryBadToken.sol:MyToken",
+        "label": "balances",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_mapping(t_address,t_uint256)"
+      },
+      {
+        "astId": 16,
+        "contract": "contracts/veryBadToken.sol:MyToken",
+        "label": "totalSupply",
+        "offset": 0,
+        "slot": "4",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_mapping(t_address,t_uint256)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => uint256)",
+        "numberOfBytes": "32",
+        "value": "t_uint256"
+      },
+      "t_string_storage": {
+        "encoding": "bytes",
+        "label": "string",
+        "numberOfBytes": "32"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      },
+      "t_uint8": {
+        "encoding": "inplace",
+        "label": "uint8",
+        "numberOfBytes": "1"
+      }
+    }
+  }
+}
