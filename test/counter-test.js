@@ -1,20 +1,40 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
-describe("Counter", function () {
-  it("Should return incremented value", async function () {
-    const Counter = await ethers.getContractFactory("Counter");
-    const counter = await Counter.deploy();
-    await counter.deployed();
+describe("Counter", function() {
+	beforeEach(async function() {
+		this.Counter = await ethers.getContractFactory("Counter");
+		this.counter = await this.Counter.deploy();
+		await this.counter.deployed();
+	});
 
-    expect(await counter.value()).to.equal(0);
+	it("Return correct value", async function() {
+		expect(await this.counter.value()).to.equal(0);
 
-    const increment = await counter.increment(1);
+		const increment = await this.counter.increment(1);
 
-    // wait until the transaction is mined
-    await increment.wait();
+		// wait until the transaction is mined
+		await increment.wait();
 
-    expect(await counter.value()).to.equal(1);
+		expect(await this.counter.value()).to.equal(1);
 
-    });
+	});
+	describe("Set few increments", async function() {
+		beforeEach(async function() {
+
+			const increment = await this.counter.increment(1);
+
+			expect(await this.counter.value()).to.equal(1);
+		});
+
+		it("Should return incremented value", async function() {
+
+			const increment = await this.counter.increment(2);
+
+			expect(await this.counter.value()).to.equal(3);
+
+		});
+
+	});
+
 });
